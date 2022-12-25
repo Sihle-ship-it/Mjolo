@@ -9,16 +9,11 @@ import { AccountService } from 'src/app/Services/account.service';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
-
   model: any = {};
-  currentUser$: Observable<User | null> = of(null)
 
+  constructor(public accountService: AccountService) { }
 
-  constructor(private accountService: AccountService) { }
-
-  ngOnInit(): void {
-    this.currentUser$ = this.accountService.currentUser$
-  }
+  ngOnInit(): void {}
 
 
 
