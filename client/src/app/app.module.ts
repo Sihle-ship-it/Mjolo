@@ -8,15 +8,17 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavComponent } from './Componets/nav/nav.component';
+import { NavComponent } from './Components/nav/nav.component';
 import { HomeComponent } from './Pages/home/home.component';
+import { RegisterComponent } from './Components/register/register.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    HomeComponent
+    HomeComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
