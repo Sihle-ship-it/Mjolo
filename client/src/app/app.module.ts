@@ -11,6 +11,10 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './Components/nav/nav.component';
 import { HomeComponent } from './Pages/home/home.component';
 import { RegisterComponent } from './Components/register/register.component';
+import { MemberDetailComponent } from './Components/members/member-detail/member-detail.component';
+import { ListsComponent } from './Components/lists/lists.component';
+import { MessagesComponent } from './Components/messages/messages.component';
+import { MemberListComponent } from './Components/members/member-list/member-list.component';
 
 
 @NgModule({
@@ -18,7 +22,11 @@ import { RegisterComponent } from './Components/register/register.component';
     AppComponent,
     NavComponent,
     HomeComponent,
-    RegisterComponent
+    RegisterComponent,
+    MemberDetailComponent,
+    ListsComponent,
+    MessagesComponent,
+    MemberListComponent
   ],
   imports: [
     BrowserModule,
