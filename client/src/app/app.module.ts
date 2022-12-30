@@ -16,6 +16,7 @@ import { ListsComponent } from './Components/lists/lists.component';
 import { MessagesComponent } from './Components/messages/messages.component';
 import { MemberListComponent } from './Components/members/member-list/member-list.component';
 import { SharedModule } from './Modules/shared.module';
+import { TestErrorsComponent } from './Errors/test-errors/test-errors.component';
 
 
 
@@ -28,7 +29,8 @@ import { SharedModule } from './Modules/shared.module';
     MemberDetailComponent,
     ListsComponent,
     MessagesComponent,
-    MemberListComponent
+    MemberListComponent,
+    TestErrorsComponent
   ],
   imports: [
     BrowserAnimationsModule,
