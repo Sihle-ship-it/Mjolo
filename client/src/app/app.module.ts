@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -17,6 +17,7 @@ import { MessagesComponent } from './Components/messages/messages.component';
 import { MemberListComponent } from './Components/members/member-list/member-list.component';
 import { SharedModule } from './Modules/shared.module';
 import { TestErrorsComponent } from './Errors/test-errors/test-errors.component';
+import { ErrorInterceptor } from './Interceptors/error.interceptor';
 
 
 
@@ -40,7 +41,9 @@ import { TestErrorsComponent } from './Errors/test-errors/test-errors.component'
     FormsModule,
     SharedModule
   ],
-  providers: [],
+  providers: [
+    {provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi:true}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
