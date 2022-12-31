@@ -18,6 +18,8 @@ import { MemberListComponent } from './Components/members/member-list/member-lis
 import { SharedModule } from './Modules/shared.module';
 import { TestErrorsComponent } from './Errors/test-errors/test-errors.component';
 import { ErrorInterceptor } from './Interceptors/error.interceptor';
+import { NotFoundComponent } from './Errors/not-found/not-found.component';
+import { ServerErrorComponent } from './Errors/server-error/server-error.component';
 
 
 
@@ -31,7 +33,9 @@ import { ErrorInterceptor } from './Interceptors/error.interceptor';
     ListsComponent,
     MessagesComponent,
     MemberListComponent,
-    TestErrorsComponent
+    TestErrorsComponent,
+    NotFoundComponent,
+    ServerErrorComponent
   ],
   imports: [
     BrowserAnimationsModule,
