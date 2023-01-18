@@ -16,6 +16,7 @@
         "Url": "https://randomuser.me/api/portraits/women/54.jpg",
         "IsMain": true
       }
+    ]
 
   },
   {
@@ -35,7 +36,7 @@
         "Url": "https://randomuser.me/api/portraits/women/50.jpg",
         "IsMain": true
       }
-
+    ]
   },
   {
     "UserName": "Margo",
@@ -54,7 +55,7 @@
         "Url": "https://randomuser.me/api/portraits/women/14.jpg",
         "IsMain": true
       }
-
+    ]
   },
   {
     "UserName": "Lois",
@@ -73,7 +74,7 @@
         "Url": "https://randomuser.me/api/portraits/women/11.jpg",
         "IsMain": true
       }
-
+    ]
   },
   {
     "UserName": "Ruthie",
@@ -92,7 +93,7 @@
         "Url": "https://randomuser.me/api/portraits/women/84.jpg",
         "IsMain": true
       }
-
+    ]
   },
   {
     "UserName": "Todd",
@@ -111,7 +112,7 @@
         "Url": "https://randomuser.me/api/portraits/men/90.jpg",
         "IsMain": true
       }
-
+    ]
   },
   {
     "UserName": "Porter",
@@ -130,7 +131,7 @@
         "Url": "https://randomuser.me/api/portraits/men/87.jpg",
         "IsMain": true
       }
-
+    ]
   },
   {
     "UserName": "Mayo",
@@ -149,9 +150,9 @@
         "Url": "https://randomuser.me/api/portraits/men/57.jpg",
         "IsMain": true
       }
-
+    ]
   },
-  {
+ {
     "UserName": "Skinner",
     "Gender": "male",
     "DateOfBirth": "1952-12-01",
@@ -168,7 +169,7 @@
         "Url": "https://randomuser.me/api/portraits/men/11.jpg",
         "IsMain": true
       }
-
+    ]
   },
   {
     "UserName": "Davis",
@@ -187,6 +188,6 @@
         "Url": "https://randomuser.me/api/portraits/men/93.jpg",
         "IsMain": true
       }
-
+    ]
   }
 ]
